@@ -14,7 +14,7 @@ const WeightGain =({navigation}) =>{
 
     const handleSubmit=async()=>{
         try {
-            const response = await fetch('http://192.168.56.1:5050/weightGain', {
+            const response = await fetch('http://X.X.X.X:5050/weightGain', { //X.X.X.X Replaced by User Ethernet IP
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
